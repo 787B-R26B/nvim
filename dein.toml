@@ -1,0 +1,21 @@
+[[plugins]]
+repo = 'shougo/in.vim'
+
+[[plugins]]
+repo = 'lambdalisue/fern.vim'
+
+[[plugins]]
+repo = 'lambdalisue/nerdfont.vim'
+
+[[plugins]]
+repo = 'lambdalisue/fern-git-status.vim'
+
+[[plugins]]
+repo = 'lambdalisue/fern-renderer-nerdfont.vim'
+hook_add = '''
+  let g:fern#renderer = 'nerdfont'
+  '''
+
+[[plugins]]
+repo = 'glyph_palette.vim'
+
